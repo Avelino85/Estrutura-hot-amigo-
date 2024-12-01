@@ -483,8 +483,7 @@
         allowfullscreen>
     </iframe>
     <div class="product-description">
-        <p><strong>Description:</strong> </p>
-        <ul>
+        <p><strong>Description:</strong> </p><ul>
             <li>• Content of incest</li>
             <li>• +1805 vídeos</li>
             <li>• Link MEGA file</li>
@@ -495,7 +494,7 @@
     </div>
     </div>
     <div class="product-price">
-        <span><strong><a href="https://t.me/L_ma0818">GET NOW</a></strong></span>
+        <span><strong><a href="https://t.me/Pay_folder">GET NOW</a></strong></span>
     </div>
 </div>
         </div>
@@ -514,7 +513,8 @@
         allowfullscreen>
     </iframe>
     <div class="product-description">
-        <p><strong>Description:</strong> </p>  <ul>
+        <p><strong>Description:</strong> </p>
+        <ul>
             <li>• Content of teens</li>
             <li>• +500 vídeos</li>
             <li>• Link MEGA file</li>
@@ -684,7 +684,7 @@
     </div>
 </div>
 </div>
-<div class="description"></div>
+        <div class="description"></div>
     </div>
 </div>
 <div class="preview">
@@ -742,7 +742,7 @@
     </div>
     </div>
     <div class="product-price">
-        <span><strong><a href="https://t.me/L_ma0818">GET NOW</a></strong></span>
+        <span><strong><a href="https://t.me/Pay_folder">GET NOW</a></strong></span>
     </div>
 </div>
         </div>
@@ -773,7 +773,7 @@
     </div>
     </div>
     <div class="product-price">
-        <span><strong><a href="https://t.me/L_ma0818">GET NOW</a></strong></span>
+        <span><strong><a href="https://t.me/Pay_folder">GET NOW</a></strong></span>
     </div>
 </div>
         </div>
@@ -862,7 +862,7 @@
         <li>✅Emmi sellers</li>
         <li>✅Black teen</li>
         <li>✅CSL</li
-        <li>✅Rape</li>
+        <li style'color:red'>✅Rape folder</li>
         <li>✅Inc3st folder</li>
         <li>✅Snapgod full edition</li>
         <li>✅Omegle</li>
@@ -883,13 +883,13 @@
         <li>✅Cp folder</li>
         <li>✅Objective dark</li>
       </ul>
-      <a href="https://t.me/L_ma0818" class="get-now-btn">Get Now</a>
+      <a href="https://t.me/Pay_folder" class="get-now-btn">Get Now</a>
     </div>
   </div>
 
     <!-- Pop-up -->
     <div class="popup" id="popup">
-    <iframe 
+        <iframe 
         class="media-frame" 
         src="https://player.vimeo.com/video/1035026300?title=0&byline=0&portrait=0" 
         frameborder="0" 
@@ -904,7 +904,14 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
     </div>
 
-    
+    <div class="popup" id="popup">
+        <video controls>
+            <source src="tutorial.mp4" type="video/mp4">
+            Your browser does not support the video.
+        </video>
+        <div class="close-btn" onclick="closePopup()">X</div>
+    </div>
+
 
 <script>
   // Configurações do contador
@@ -943,7 +950,18 @@
     <script>
     
         const header = document.getElementById('header');
-        const popup =('active');
+        const popup = document.getElementById('popup');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('shrink');
+            } else {
+                header.classList.remove('shrink');
+            }
+        });
+
+        function openPopup() {
+            popup.classList.add('active');
         }
 
         function closePopup() {
@@ -955,4 +973,4 @@
         }
     </script>
 </body>
-                                        </html>
+    </html>
